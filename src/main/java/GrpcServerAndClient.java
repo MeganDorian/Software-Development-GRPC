@@ -9,11 +9,13 @@ import java.text.DateFormat;
 import java.text.SimpleDateFormat;
 import java.util.Date;
 import java.util.Scanner;
-import org.itmo.Hello;
 import org.itmo.HelloRequest;
 import org.itmo.HelloResponse;
 import org.itmo.HelloServiceGrpc;
 
+/**
+ * конфигурации настроены, просто запустить вначале сервис, потм клиента
+ */
 public class GrpcServerAndClient {
     public static void main(String[] args) throws IOException, InterruptedException {
         if(args.length == 1) {
